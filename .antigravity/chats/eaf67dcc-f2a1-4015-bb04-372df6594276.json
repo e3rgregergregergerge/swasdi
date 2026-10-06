@@ -3,6 +3,31 @@
   "name": "https://gitlab.com/upio/roblox-executor-mcp",
   "createdAt": "2026-10-06T23:12:38.529Z",
   "filename": "eaf67dcc-f2a1-4015-bb04-372df6594276.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "98997d73-50f5-4ad3-97cf-ae369227411f",
+      "role": "user",
+      "content": "Hi",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-06T23:20:16.513Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "df5df6d2-1c63-441e-b6b0-8cb7fc123e38",
+      "role": "agent",
+      "content": "error: Eligibility check failed: Your current account is not eligible for Antigravity. Verify your account to continue.\n\nAlternatively, try signing in with another personal Google account.\n\nPlease verify your account in your browser to continue:\nhttps://accounts.google.com/signin/continue?sarp=1&scc=1&continue=https://developers.google.com/gemini-code-assist/auth/auth_success_gemini&plt=AKgnsbtRwzc0vRXQtqVhJ2867lvaKQMWIpyry6eZiPTIsgc41_YpnmByBe2gSv8SMynqjcn-IUFxgIzbK2-ThvPkUr5E6MCH3j6Q7iX603wWC7aE2CWZ42u3nX7KbFzxpHac-pC56XM6&flowName=GlifWebSignIn&authuser",
+      "status": "error",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "98997d73-50f5-4ad3-97cf-ae369227411f",
+      "created_at": "2026-10-06T23:20:20.029Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    }
+  ]
 }
